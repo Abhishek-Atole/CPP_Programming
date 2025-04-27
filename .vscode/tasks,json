@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build snake_game",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "snake_game.cpp",
+                "-o",
+                "snake_game"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task to build snake_game."
+        }
+    ]
+}
