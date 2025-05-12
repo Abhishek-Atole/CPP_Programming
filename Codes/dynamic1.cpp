@@ -13,7 +13,7 @@ int main()
 
     free(ptr);
 
-    delete(ptr1);
+    delete [] ptr1;
 
     return 0;
 }
