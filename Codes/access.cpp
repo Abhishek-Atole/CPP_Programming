@@ -52,10 +52,10 @@ int main()
 
     // Main section is also the external function.
 
-    cout<<"Value of i : "<<obj.i<< endl;    //Not Allowed because this is private  access variable.
+    //cout<<"Value of i : "<<obj.i<< endl;    //Not Allowed because this is private  access variable.
     cout << "Value of j : " << obj.j << endl; // Allowed because this is public access variable.
-    cout<<"Value of k : "<<obj.k << endl;     //Not Allowed because it is private access variable.
-    cout<<"Value of a : "<< obj.a << endl;    //Not Allowed because it is protected access variable.
+    //cout<<"Value of k : "<<obj.k << endl;     //Not Allowed because it is private access variable.
+    //cout<<"Value of a : "<< obj.a << endl;    //Not Allowed because it is protected access variable.
     obj.Display(); // Display(&obj)
     return 0;
 }
