@@ -4,7 +4,7 @@ using namespace std;
 class Base
 {
 public:
-   int i;
+    int i, j, k;
     virtual void Fun() // 1000
     {
         cout << "Inside Fun Function" << endl;
@@ -26,7 +26,8 @@ public:
 class Derived : public Base
 {
 public:
-    int a,b;
+    int a, b;
+
     void Gun() // 5000
     {
         cout << "inside Derived Gun Function" << endl;
